@@ -1,37 +1,16 @@
-# A-Frame Boilerplate
+# New Year 2016 demo scene made with A-Frame
 
-Boilerplate for creating WebVR scenes using A-Frame.
-
+New Year 2016 demo scene made WebVR scenes using A-Frame.
 
 ## Getting Started
 
-There are two easy options for obtaining this A-Frame scene. It's then up to you to make it your own!
+Alternatively, you can __[fork this repo](https://github.com/pinya/a-frame-new-year/fork)__ to get started, if you'd like to maintain a Git workflow.
+After you have __[forked this repo](https://github.com/pinya/a-frame-new-year/fork)__, clone a copy of your fork locally and you'll be have your scene ready in these few steps:
 
-### <sup>Option 1:</sup> Download the ZIP kit 📦
-
-[<img src="http://i.imgur.com/UVPZoM0.png" width="200">](https://github.com/aframevr/aframe-boilerplate/archive/master.zip)
-
-After you have __[downloaded and extracted this `.zip` file](https://github.com/aframevr/aframe-boilerplate/archive/master.zip)__ containing the contents of this repo, open the resulting directory, and you'll be have your scene ready in these few steps:
-
-    npm install && npm start
-
-<hr>
-
-### <small><sup>Option 2:</sup> Fork this Git repo 🍴🐙
-
-Alternatively, you can __[fork this repo](https://github.com/aframevr/aframe-boilerplate/fork)__ to get started, if you'd like to maintain a Git workflow.
-
-After you have __[forked this repo](https://github.com/aframevr/aframe-boilerplate/fork)__, clone a copy of your fork locally and you'll be have your scene ready in these few steps:
-
-    git clone git@github.com:your_username/aframe-boilerplate.git
+    git clone git@github.com:your_username/a-frame-new-year.git
     cd aframe-boilerplate && npm install && npm start
 
 <hr>
-
-### <small><sup>Option 3:</sup> Fork this CodePen example 🍴💾✒️
-
-Or, you can simply __[fork this CodePen example](http://codepen.io/team/mozvr/pen/BjygdO?editors=100)__ to dive right in. Enjoy!
-
 
 ## Publishing your scene
 

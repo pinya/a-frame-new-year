@@ -1,7 +1,7 @@
 {
-  "name": "aframe-boilerplate",
-  "description": "Boilerplate for creating WebVR scenes using A-Frame",
-  "version": "0.0.0",
+  "name": "a-frame-new-year",
+  "description": "New Year WebVR scenes using A-Frame",
+  "version": "0.0.1",
   "license": "MIT",
   "scripts": {
     "start": "budo --live --verbose --port 3000 --open",
@@ -16,6 +16,8 @@
     "aframe",
     "aframe-example",
     "aframe-scene",
-    "aframe-boilerplate"
+    "aframe-boilerplate",
+    "new-year",
+    "scene"
   ]
 }
