@@ -49,7 +49,7 @@ To serve the site from a simple Node development server:
 
     npm start
 
-Then launch the site from your favourite browser:
+Then launch the site from your favorite browser:
 
 [__http://localhost:3000/__](http://localhost:3000/)
 
