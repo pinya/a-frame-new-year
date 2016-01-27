@@ -6,7 +6,57 @@
   </head>
   <body>
     <a-scene>
-      <a-cube></a-cube>
+      <a-camera wasd-controls-enabled="true" cursor-scale="1" cursor-color="red" position='0 1.7 0'></a-camera>
+      <a-entity id="winter" position="0 0 -10" >
+        <a-cube position="0 -0.1 0" rotation="0 0 0" width="10" height="0.1" depth="10"  color="#ccc"></a-cube>
+        <a-entity material="color: #2B4F11" geometry="primitive: cone; radiusBottom: 3; radiusTop: 1.5; height: 2;" position="0 1 0" rotation="0 0 0"></a-entity>
+        <a-entity material="color: #DDD" geometry="primitive: cone; radiusBottom: 3.1; radiusTop: 1.5; height: 2;" position="0 0.9 0" rotation="0 0 0"></a-entity>
+        <a-entity material="color: #2B4F11" geometry="primitive: cone; radiusBottom: 2.2; radiusTop: 0.75;height: 2;" position="0 3 0" rotation="0 0 0"></a-entity>
+        <a-entity material="color: #DDD" geometry="primitive: cone; radiusBottom: 2.3; radiusTop: 0.75;height: 2;" position="0 2.9 0" rotation="0 0 0"></a-entity>
+        <a-entity material="color: #2B4F11" geometry="primitive: cone; radiusBottom: 1.5; radiusTop: 0;height: 2;" position="0 4.7 0" rotation="0 0 0"></a-entity>
+        <a-entity material="color: #DDD" geometry="primitive: cone; radiusBottom: 1.6; radiusTop: 0;height: 2;" position="0 4.6 0" rotation="0 0 0"></a-entity>
+      </a-entity>
+
+      <a-entity id="spring" position="0 0 1" >
+        <a-cube position="0 0 0" rotation="0 0 0" width="1" height="0.1" depth="1"  color="#1c1"></a-cube>
+      </a-entity>
+
+      <a-entity id="summer" position="-1 0 0" >
+        <a-cube position="0 0 0" rotation="0 0 0" width="1" height="0.1" depth="1"  color="#cc1"></a-cube>
+      </a-entity>
+
+      <a-entity id="autumn" position="0 0 -1" >
+        <a-cube position="0 0 0" rotation="0 0 0" width="1" height="0.1" depth="1"  color="#884"></a-cube>
+      </a-entity>
     </a-scene>
   </body>
 </html>
+
+    <!-- <a-scene fog="type: linear; color: #AAB; far: 30; near: 0"> -->
+      <!-- <a-sphere position="0 1.25 -1" radius="1.25" color="#EF2D5E"></a-sphere>
+      <a-cube position="-1 0.5 1" rotation="0 45 0" width="1" height="1" depth="1"  color="#4CC3D9"></a-cube>
+      <a-cylinder position="1 0.75 1" radius="0.5" height="1.5" color="#FFC65D"></a-cylinder>
+      <a-plane rotation="-90 0 0" width="4" height="4" color="#7BC8A4"></a-plane>
+      <a-entity geometry="primitive: cone; radiusBottom: 1; radiusTop: 0.0; " color="#1f1" position="1 5 1"></a-entity> -->
+      <!-- <a-entity id="tree" position="0 0 0">ani
+         <a-animation attribute="rotation" from="0 0 0" to="0 0 360" repeat="indefinite" easing="linear"></a-animation>
+        <a-sphere color="green" radius="0.5" position="0 1.5 0"></a-sphere>
+        <a-cylinder color="brown" radius="0.2" height="1" position="0 0.5 0"></a-cylinder>
+      </a-entity> -->
+      <!-- <a-sky color="#eeeefe"></a-sky> -->
+      <!-- <a-entity light="type: ambient; color: #CCC"></a-entity> -->
+
+      <!-- <a-entity loader="src: monster.dae; format: collada"></a-entity> -->
+
+      <!-- <a-entity id="hearth" position="0 0 0" >
+        <a-animation attribute="scale" from="1 1 1" to="1.2 1.2 1.2" dur=300 repeat="indefinite" direction="alternate" easing="linear"></a-animation>
+        <a-entity material="color: #900" geometry="primitive: cone; radiusBottom: 0; radiusTop: 1;" position="-0.44 0 0" rotation="0 0 26.5"></a-entity>
+        <a-entity material="color: #900" geometry="primitive: cone; radiusBottom: 0; radiusTop: 1;" position="0.44 0 0" rotation="0 0 -26.5"></a-entity>
+        <a-sphere color="#900" radius="1.08" position="-1.05 1.2 0"></a-sphere>
+        <a-sphere color="#900" radius="1.08" position="1.05 1.2 0"></a-sphere>
+      </a-entity> -->
+      <!-- <a-light type="hemisphere"></a-light> -->
+
+
+
+    <!-- </a-scene> -->
